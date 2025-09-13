@@ -21,7 +21,7 @@ ensuring we don’t run motors that are not really needed.
 
 ## Compile
 ## option 1:
-```bash
+
 gcc main.c
 .\a.exe
 
@@ -29,6 +29,6 @@ gcc main.c
 Since I had some issues running C code in VSCodium, 
 I tested and ran the program using an online C compiler (such as https://www.programiz.com/c-programming/online-compiler/)
 
-
-Note that i used #include <math.h>   // for ceil() to round up the number of motors required when the calculation results in a decimal.
+## **Note**:
+i used #include <math.h>   // for ceil() to round up the number of motors required when the calculation results in a decimal.
 For example, if 20.4 kg is divided by 5.6 kg per motor, the result is 3.64. Using ceil() ensures the program correctly rounds up to 4 motors, since a fraction of a motor is not possible.
