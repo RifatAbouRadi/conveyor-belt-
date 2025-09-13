@@ -7,8 +7,7 @@ ensuring we don’t run motors that are not really needed.
 
 ## Features
 - Takes user input for:
-  .) Number of motors available
-  .) Total package weight (kg)
+   Number of motors available , Total package weight (kg)
 - Calculates the load per motor
 - Checks if the system can safely carry the load
 - Suggests the minimum number of motors required
